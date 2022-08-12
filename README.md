@@ -17,7 +17,7 @@ inputDataFrame <- mskeyrun::simCatchIndex
 startYear <- 55
 outputFile <- '<user directory>/HarvestCatch_Keyrun_Simulated.csv'
 
-# Call function to convert Keyrun Catch data to an MSSPM-readable CSV file
+# Call function to convert Keyrun Catch sim data to an MSSPM-readable CSV file
 convertKeyrunCatchSimToMSSPM(inputDataFrame,startYear,outputFile)
 ```
 
