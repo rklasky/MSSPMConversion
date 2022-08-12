@@ -6,7 +6,7 @@ This package contains R scripts that convert Keyrun data to MSSPM data. The conv
 remotes::install_github("rklasky/MSSPMConversion")
 ``` 
 
-## Usage
+## Example Usage
 ``` r
 # Make sure the keyrun package has been loaded
 remotes::install_github("NOAA-EDAB/ms-keyrun")
