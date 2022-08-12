@@ -6,6 +6,19 @@ This package contains R scripts that convert Keyrun data to MSSPM data. The conv
 remotes::install_github("rklasky/MSSPMConversion")
 ``` 
 
+## Available functions
+- convertKeyrunCatchCommercialAgeCompToMSSPM
+- convertKeyrunCatchCommercialToMSSPM
+- convertKeyrunCatchSimToMSSPM
+- convertEcodataToMSSPM
+- convertKeyrunObsBMtoMSSPM
+
+## Help
+Individual function help is available by typing at the R console (for the specific function):
+``` r
+?convertKeyrunCatchCommercialToMSSPM
+```
+
 ## Example Usage
 ``` r
 # Make sure the keyrun package has been loaded
