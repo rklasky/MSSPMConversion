@@ -7,10 +7,10 @@ remotes::install_github("rklasky/MSSPMConversion")
 ``` 
 
 ## Available functions
+- convertEcodataToMSSPM
 - convertKeyrunCatchCommercialAgeCompToMSSPM
 - convertKeyrunCatchCommercialToMSSPM
 - convertKeyrunCatchSimToMSSPM
-- convertEcodataToMSSPM
 - convertKeyrunObsBMtoMSSPM
 
 ## Help
