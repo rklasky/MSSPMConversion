@@ -6,7 +6,20 @@ This package contains R scripts that convert Keyrun data to MSSPM data. The conv
 remotes::install_github("rklasky/MSSPMConversion")
 ``` 
 
-## Usage
+## Available functions
+- convertEcodataToMSSPM
+- convertKeyrunCatchCommercialAgeCompToMSSPM
+- convertKeyrunCatchCommercialToMSSPM
+- convertKeyrunCatchSimToMSSPM
+- convertKeyrunObsBMtoMSSPM
+
+## Help
+Individual function help is available by typing at the R console (for the specific function):
+``` r
+?convertKeyrunCatchCommercialToMSSPM
+```
+
+## Example Usage
 ``` r
 # Make sure the keyrun package has been loaded
 remotes::install_github("NOAA-EDAB/ms-keyrun")
@@ -17,7 +30,7 @@ inputDataFrame <- mskeyrun::simCatchIndex
 startYear <- 55
 outputFile <- '<user directory>/HarvestCatch_Keyrun_Simulated.csv'
 
-# Call function to convert Keyrun Catch data to an MSSPM-readable CSV file
+# Call function to convert Keyrun Catch sim data to an MSSPM-readable CSV file
 convertKeyrunCatchSimToMSSPM(inputDataFrame,startYear,outputFile)
 ```
 
